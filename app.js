@@ -5,7 +5,7 @@ const path = require('path');
 const app = express();
 const port = 3000;
 
-const uri = 'mongodb://localhost:27017';
+const uri = 'mongodb+srv://levinfankhauser:levinfankhauser@socialcredit.104c0tc.mongodb.net/?retryWrites=true&w=majority&appName=SocialCredit';
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 let db;
 
